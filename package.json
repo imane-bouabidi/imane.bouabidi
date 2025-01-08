@@ -1,5 +1,5 @@
 {
-  "homepage": "https://imane-bouabidi.github.io/imane.bouabidi/",
+  "homepage": "https://imane-bouabidi.github.io/imane.bouabidi",
   "name": "vs-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
