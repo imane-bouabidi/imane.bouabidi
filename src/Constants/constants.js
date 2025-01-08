@@ -40,7 +40,6 @@ import {
   neoIcon,
   figmaIcon,
   pawsitivePrototype,
-  img,
   memoryGame,
   avatar,
 } from '../assets';
@@ -65,6 +64,7 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  img,
 };
 
 const icons = {
