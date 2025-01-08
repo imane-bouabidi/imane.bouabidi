@@ -40,6 +40,7 @@ import {
   neoIcon,
   figmaIcon,
   pawsitivePrototype,
+  img,
   memoryGame,
   avatar,
 } from '../assets';
@@ -110,11 +111,10 @@ export const navLinks = [
 
 const projects = [
   {
-    name: 'Connect 4',
+    name: 'Citronix',
     description: 'This project implements Connect Four in Python and Pygame, featuring a GUI and gameplay modes for player vs. AI and AI vs. AI. The AI uses the MiniMax algorithm, with optional alpha-beta pruning for improved performance.',
-    image: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjRkaWp6MDJ1cXNrZmMzaTZ2aXVhcWtndWJpNHg0djRpYWdtYjF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p49LPwL9yAoZInx28N/giphy.gif",
-    source_code_link: 'https://github.com/bl33h/connectFour',
-    demo_link: 'https://youtu.be/CBceC2BXJyE',
+    image: img,
+    source_code_link: 'https://github.com/imane-bouabidi/Citronix.git',
   },
   {
     name: 'Pawsitive',
