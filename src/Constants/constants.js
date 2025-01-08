@@ -82,9 +82,10 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
 
-		"My name is Sara, I'm 22 and a senior computer science student based in Guatemala. I have a strong passion for the technologies related to QA and AI.",
-    "Outside of my regular activities, I'm a painting artist, football enthusiast, chess player, and a dog lover.",
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated!"
+    '\n'
+        + "My name is Imane, I'm 22 years old and a Full Stack Web Developer based in Morocco. I am currently a student at YouCode with a strong passion for web technologies, Java development, and AI integration.",
+    'Outside of my academic and professional pursuits, I enjoy exploring creative activities, diving into new tech trends, and continuously improving my skills.',
+    "I'm always excited to collaborate with individuals and teams who share my drive for innovation and creating impactful projects. Thank you for visiting my portfolio!",
   ],
 };
 
@@ -108,13 +109,6 @@ export const navLinks = [
 ];
 
 const projects = [
-  {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
-  },
   {
     name: 'Connect 4',
     description: 'This project implements Connect Four in Python and Pygame, featuring a GUI and gameplay modes for player vs. AI and AI vs. AI. The AI uses the MiniMax algorithm, with optional alpha-beta pruning for improved performance.',
@@ -157,20 +151,6 @@ const projects = [
     source_code_link: 'https://github.com/bl33h/disneyPlusReplica',
     demo_link: 'https://disneyplusreplica.netlify.app',
   },
-  {
-    name: 'Deep Dive Odyssey Raycasting',
-    description: 'The code represents a raycasting graphics application with a Finding Pirate Treasure Under the Sea theme. It creates a 3D perspective effect by simulating rays of light and their interactions with a map.',
-    image: "https://camo.githubusercontent.com/6f427dc9ed1d9f990ac1309c323449fc51322fc8c10990ddef9ad11f3e49350b/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784f4870736432527a5a575a6a616e4e366547513364473172616e64755a576b306457357262336f79596d527964584636646a413264535a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f634b4c57543837305a4a39587769706e57772f67697068792e676966",
-    source_code_link: 'https://github.com/bl33h/deepDiveOdysseyRaycasting',
-    demo_link: 'https://camo.githubusercontent.com/94f800b79d759c06717af7d816a16ccff75a0101c942ca9ad3c562d0dd2c9404/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784f4870736432527a5a575a6a616e4e366547513364473172616e64755a576b306457357262336f79596d527964584636646a413264535a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f634b4c57543837305a4a39587769706e57772f67697068792e676966',
-  },
-  {
-    name: 'Fibonacci & Factorial',
-    description: 'A project that includes two LISP programs: one for factorials and the other for Fibonacci sequences. They use recursion, prompt user input, and display results efficiently.',
-    image: "https://i.pinimg.com/originals/96/c3/9a/96c39a5cb89092760fe11f355a32f4a4.gif",
-    source_code_link: 'https://github.com/bl33h/fibonacciAndFactorial',
-    demo_link: 'https://camo.githubusercontent.com/59b3c9969f369559fbeb1ed6a53f159e0e83b1151b82552b5b2165c4e9686e89/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f312f31612f4669626f6e616363695f63616c6c5f747265655f352e676966',
-  }
 ];
 
 const memoji = {
