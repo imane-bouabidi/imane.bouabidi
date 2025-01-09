@@ -14,19 +14,12 @@ import bl33hIcon from './logo/icon.png';
 import htmlIcon from './tech/html.png';
 import cssIcon from './tech/css.png';
 import jsIcon from './tech/javascript.png';
-import reactIcon from './tech/reactjs.png';
-import awsIcon from './tech/aws.png';
 import javaIcon from './tech/java.png';
 import gitIcon from './tech/git.png';
 import githubIcon from './tech/github.png';
 import figmaIcon from './tech/figma.png';
 import psqlIcon from './tech/postgresql.png';
-import eslintIcon from './tech/eslint.png';
-import viteIcon from './tech/vite.svg';
-import pyIcon from './tech/py.png';
 import npmIcon from './tech/npm.png';
-import neoIcon from './tech/neo.png';
-import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
 import laravel from './tech/laravel.png';
@@ -39,8 +32,12 @@ import springboot from './tech/springboot.jpg';
 import api from './tech/api.png';
 
 // Projects
-import pawsitivePrototype from './projects/pawsitive.jpeg';
-import memoryGame from './projects/memory.jpg';
+import quiz from './tech/quiz.jpeg';
+import waiting from './tech/waiting-room.jpeg';
+import itLens from './tech/survey.webp';
+import cuisine from './tech/cuisine.webp';
+import idea from './tech/IDEA SPHERE.png';
+import citronix from './projects/img.png';
 
 // Avatar
 import avatar from './avatar/avatar.png';
@@ -51,21 +48,12 @@ export {
   htmlIcon,
   cssIcon,
   jsIcon,
-  reactIcon,
-  awsIcon,
   javaIcon,
   gitIcon,
   githubIcon,
-  eslintIcon,
   figmaIcon,
   psqlIcon,
   npmIcon,
-  pyIcon,
-  viteIcon,
-  neoIcon,
-  raspIcon,
-  pawsitivePrototype,
-  memoryGame,
   avatar,
   bl33hIcon,
   laravel,
@@ -76,4 +64,10 @@ export {
   typescript,
   springboot,
   api,
+  citronix,
+  quiz,
+  waiting,
+  itLens,
+  cuisine,
+  idea,
 };

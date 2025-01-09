@@ -107,7 +107,6 @@ const ProjectCard = ({
   description,
   image,
   source_code_link,
-  demo_link,
 }) => {
   return (
       <Tilt
@@ -148,15 +147,6 @@ const ProjectCard = ({
                   </p>
               </div>
               <div className="mt-2 flex flex-wrap gap-1"></div>
-              <div className="mt-3 flex justify-center items-center">
-                  <a
-                      className="shadow-md shadow-primary p-2 bg-tertiary rounded-lg flex justify-center"
-                      href={demo_link}
-                      target="_blank"
-                  >
-                      See the Demo
-                  </a>
-              </div>
           </motion.div>
       </Tilt>
   );
