@@ -14,7 +14,7 @@ import { navLinks } from "../../Constants/constants";
 import { bl33hIcon, menu, close } from "../../assets";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -29,7 +29,7 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive("");
+            setActive('');
             window.scrollTo(0, 0);
           }}
         >
@@ -37,13 +37,13 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10"  style={{ color: '#b3286c' }}>
+        <ul className="list-none hidden sm:flex flex-row gap-10" style={{ color: '#b3286c' }}>
           {navLinks.map((link) => {
             return (
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? "text-white" : "text-secondary"
+                  active === link.title ? 'text-white' : 'text-secondary'
                 } hover:text-white text-[24px] font-bold cursor-pointer `}
                 onClick={() => setActive(link.title)}
               >
@@ -70,7 +70,7 @@ const Navbar = () => {
                   <li
                     key={link.id}
                     className={`${
-                      active === link.title ? "text-white" : "text-secondary"
+                      active === link.title ? 'text-white' : "text-secondary"
                     } font-poppins font-medium cursor-pointer text-[16px]`}
                     onClick={() => {
                       setActive(link.title);

@@ -7,12 +7,12 @@
    Last modification: 03/06/2023
 */
 
-import { m, LazyMotion, domAnimation } from "framer-motion";
-import SectionTitle from "../Components/SectionTitle";
-import ContactForm from "../Components/ContactForm";
-import SocialLinks from "../Components/SocialLinks";
+import { m, LazyMotion, domAnimation } from 'framer-motion';
+import SectionTitle from '../Components/SectionTitle';
+import ContactForm from '../Components/ContactForm';
+import SocialLinks from '../Components/SocialLinks';
 
-const Contact = () => {
+function Contact() {
   return (
     <div
       id="contact"
@@ -27,10 +27,10 @@ const Contact = () => {
             <m.div
               initial={{ x: 200 }}
               whileInView={{ x: 0 }}
-              transition={{ duration: 0.6, type: "spring" }}
+              transition={{ duration: 0.6, type: 'spring' }}
               className="w-full sm:w-[90%] md:w-[80%] sm:h-[600px] p-4 flex flex-col sm:flex-row gap-4"
             >
-              <div className="flex justify-center"></div>
+              <div className="flex justify-center" />
               <ContactForm />
             </m.div>
           </LazyMotion>
@@ -38,14 +38,10 @@ const Contact = () => {
       </div>
       <div className="w-full flex flex-col">
         <SocialLinks />
-        <div className="bg-grayscale-950 flex justify-center pb-4 text-primary-200">
-          <span>
-            Made by <em>Sara Echeverría (bl33h)</em>
-          </span>
-        </div>
+
       </div>
     </div>
   );
-};
+}
 
 export default Contact;

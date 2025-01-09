@@ -7,65 +7,65 @@
    Last modification: 19/04/2024
 */
 
-import { motion } from "framer-motion";
-import { Tilt } from "react-tilt";
-import { projects } from "../Constants/constants";
-import { githubIcon } from "../assets";
+import { motion } from 'framer-motion';
+import { Tilt } from 'react-tilt';
+import { projects } from '../Constants/constants';
+import { githubIcon } from '../assets';
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
-	return {
-		hidden: {},
-		show: {
-			transition: {
-				staggerChildren: staggerChildren,
-				delayChildren: delayChildren || 0,
-			},
-		},
-	};
+  return {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren,
+        delayChildren: delayChildren || 0,
+      },
+    },
+  };
 };
 
 export const textVariant = (delay) => {
-	return {
-		hidden: {
-			y: -50,
-			opacity: 0,
-		},
-		show: {
-			y: 0,
-			opacity: 1,
-			transition: {
-				type: "spring",
-				duration: 1.25,
-				delay: delay,
-			},
-		},
-	};
+  return {
+    hidden: {
+      y: -50,
+      opacity: 0,
+    },
+    show: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: 'spring',
+        duration: 1.25,
+        delay,
+      },
+    },
+  };
 };
 
 export const fadeIn = (direction, type, delay, duration) => {
-	return {
-		hidden: {
-			x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-			y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
-			opacity: 0,
-		},
-		show: {
-			x: 0,
-			y: 0,
-			opacity: 1,
-			transition: {
-				type: type,
-				delay: delay,
-				duration: duration,
-				ease: "easeOut",
-			},
-		},
-	};
+  return {
+    hidden: {
+      x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
+      y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
+      opacity: 0,
+    },
+    show: {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      transition: {
+        type,
+        delay,
+        duration,
+        ease: 'easeOut',
+      },
+    },
+  };
 };
 
 export const zoomIn = (delay, duration) => {
-	return {
-		hidden: {
+  return {
+    hidden: {
 			scale: 0,
 			opacity: 0,
 		},
@@ -110,31 +110,31 @@ const ProjectCard = ({
 }) => {
   return (
       <Tilt
-          options={{
-              max: 40,
-              scale: 1,
-              speed: 450,
-          }}
-          className="shadow-2xl p-5 rounded-lg sm:w-[300px] w-[100%]"
+        options={{
+		  max: 40,
+		  scale: 1,
+		  speed: 450,
+	  	}}
+        className="shadow-2xl p-5 rounded-lg sm:w-[300px] w-[100%]"
       >
-          <motion.div
-              variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+        <motion.div
+          variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
           >
               <div className="relative">
                   <img
-                      src={image}
-                      alt={name}
-                      className="w-full h-full md:h-[200px] object-cover rounded-lg relative"
+                    src={image}
+                    alt={name}
+                    className="w-full h-full md:h-[200px] object-cover rounded-lg relative"
                   />
                   <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
                       <div
-                          onClick={() => window.open(source_code_link, "_blank")}
-                          className="w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+                        onClick={() => window.open(source_code_link, "_blank")}
+                        className="w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
                       >
                           <img
-                              src={githubIcon}
-                              alt="github"
-                              className="w-full h-full object-contain"
+                            src={githubIcon}
+                            alt="github"
+                            className="w-full h-full object-contain"
                           />
                       </div>
                   </div>
@@ -153,13 +153,13 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-    return (
+  return (
         <div className="mt-5 flex flex-wrap justify-center gap-4 text-grayscale-50 w-full">
             {projects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
             ))}
         </div>
-    );
+  );
 };
 
 export default Works;
