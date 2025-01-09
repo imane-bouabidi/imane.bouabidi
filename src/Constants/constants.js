@@ -40,6 +40,14 @@ import {
   neoIcon,
   figmaIcon,
   pawsitivePrototype,
+  laravel,
+  php,
+  angular,
+  junit,
+  hibernate,
+  typescript,
+  springboot,
+  api,
   memoryGame,
   avatar,
 } from '../assets';
@@ -64,6 +72,14 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  laravel,
+  php,
+  angular,
+  junit,
+  springboot,
+  hibernate,
+  typescript,
+  api,
   // img,
 };
 
@@ -132,8 +148,7 @@ const projects = [
   },
   {
     name: 'ItLens',
-    description: '\n' +
-        'Built a RESTful API for IT surveys using Spring Boot. Features include survey structuring, user participation, and results analysis with PostgreSQL, and Spring Data JPA',
+    description: 'Built a RESTful API for IT surveys using Spring Boot. Features include survey structuring, user participation, and results analysis with PostgreSQL, and Spring Data JPA',
     image: "https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/uvd82gspopw8orvryulc",
     source_code_link: 'https://github.com/imane-bouabidi/Survey_IT.git',
     demo_link: 'https://visitourlands.netlify.app/',
@@ -181,25 +196,11 @@ const skills = [
     'I have substantial experience in employing JavaScript to introduce interactivity and functionality into web pages, resulting in dynamic user interfaces.',
   },
   {
-    id: 'react',
-    title: 'React',
-    icon: reactIcon,
-    description:
-      'I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
-  },
-  {
     id: 'java',
     title: 'Java',
     icon: javaIcon,
     description:
       'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
-  },
-  {
-    id: 'aws',
-    title: 'Amazon Web Services',
-    icon: awsIcon,
-    description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
   },
   {
     id: 'figma',
@@ -230,20 +231,6 @@ const skills = [
       'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
   },
   {
-    id: 'vite',
-    title: 'Vite',
-    icon: viteIcon,
-    description:
-      'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
-  },
-  {
-    id: 'py',
-    title: 'Python',
-    icon: pyIcon,
-    description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
-  },
-  {
     id: 'npm',
     title: 'npm',
     icon: npmIcon,
@@ -251,23 +238,58 @@ const skills = [
       'When it comes to building web applications, I prefer using npm as my runtime environment over Yarn. I have expertise to develop powerful and scalable web applications.',
   },
   {
-    id: 'neo',
-    title: 'Neo4j',
-    icon: neoIcon,
+    id: 'Spring',
+    title: 'Spring Boot',
+    icon: springboot,
     description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
   },
   {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
+    id: 'TypeScript',
+    title: 'TypeScript',
+    icon: typescript,
     description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
   },
   {
-    id: 'eslint',
-    title: 'Eslint',
-    icon: eslintIcon,
+    id: 'Hibernate',
+    title: 'Hibernate',
+    icon: hibernate,
+    description:
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+  },
+  {
+    id: 'REST',
+    title: ' REST API',
+    icon: api,
+    description:
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+  },
+  {
+    id: 'Laravel',
+    title: 'Laravel',
+    icon: laravel,
+    description:
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+  },
+  {
+    id: 'Angular',
+    title: 'Angular',
+    icon: angular,
+    description:
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+  },
+  {
+    id: 'JUnit',
+    title: 'JUnit',
+    icon: junit,
+    description:
+      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+  },
+  {
+    id: 'PHP',
+    title: 'PHP',
+    icon: php,
     description:
       'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
   },

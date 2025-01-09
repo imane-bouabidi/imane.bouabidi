@@ -29,6 +29,14 @@ import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
+import laravel from './tech/laravel.png';
+import php from './tech/php.jpeg';
+import angular from './tech/angular.png';
+import junit from './tech/junit.png';
+import hibernate from './tech/hibernate.jpg';
+import typescript from './tech/typescript.png';
+import springboot from './tech/springboot.jpg';
+import api from './tech/api.png';
 
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
@@ -60,4 +68,12 @@ export {
   memoryGame,
   avatar,
   bl33hIcon,
+  laravel,
+  php,
+  angular,
+  junit,
+  hibernate,
+  typescript,
+  springboot,
+  api,
 };
