@@ -64,7 +64,7 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
-  img,
+  // img,
 };
 
 const icons = {
@@ -112,43 +112,44 @@ export const navLinks = [
 const projects = [
   {
     name: 'Citronix',
-    description: 'This project implements Connect Four in Python and Pygame, featuring a GUI and gameplay modes for player vs. AI and AI vs. AI. The AI uses the MiniMax algorithm, with optional alpha-beta pruning for improved performance.',
-    image: img,
+    description: 'Developed a Spring Boot and PostgreSQL application to manage farms, fields, trees, harvests, and sales while adhering to agricultural constraints.',
+    // image: img,
     source_code_link: 'https://github.com/imane-bouabidi/Citronix.git',
   },
   {
-    name: 'Pawsitive',
+    name: 'YouQuiz',
     description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
     image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
+    source_code_link: 'https://github.com/imane-bouabidi/YouQuiz.git',
     demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
   },
   {
-    name: 'Client-Server Chat',
-    description: 'This is a chat application that facilitates communication between multiple clients through a centralized server. The application is designed using socket programming and handles multiple client connections concurrently using threads.',
+    name: 'Waiting Room',
+    description: 'Developed an API with Spring Boot, featuring queue management, scheduling, and statistics. Implemented exception handling, and YAML configurations using: Spring Data JPA, Spring Web, MapStruct, MySQL (Docker), Postman, DTOs.',
     image: "https://i.pinimg.com/originals/0e/4a/c3/0e4ac37acbff81cd087aa19692a07a9d.gif",
-    source_code_link: 'https://github.com/bl33h/clientServerChat',
+    source_code_link: 'https://github.com/imane-bouabidi/waiting_room.git',
     demo_link: 'https://youtu.be/Mk1BNqPz1n4',
   },
   {
-    name: 'Visit Our Lands',
-    description: 'It is a recommendation system built with React and Supabase. This system focuses on providing tourist recommendations for various locations in Guatemala.',
+    name: 'ItLens',
+    description: '\n' +
+        'Built a RESTful API for IT surveys using Spring Boot. Features include survey structuring, user participation, and results analysis with PostgreSQL, and Spring Data JPA',
     image: "https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/uvd82gspopw8orvryulc",
-    source_code_link: 'https://github.com/bl33h/visitOurLands',
+    source_code_link: 'https://github.com/imane-bouabidi/Survey_IT.git',
     demo_link: 'https://visitourlands.netlify.app/',
   },
   {
-    name: 'Exploring The Space',
-    description: 'The program uses OpenGL and C++ to render celestial bodies with dynamic realism. It includes a shader-based pipeline and a camera that follows a spaceship for added interactivity.',
+    name: 'Bati-Cuisine',
+    description: 'Created BatiCuisine, a Java app for calculating kitchen renovation costs, including materials and labor, with features like client management and custom quotes. Built with Java 8 and PostgreSQL.',
     image: "https://camo.githubusercontent.com/073b9a25a3791903af3b062e0ced825225ad3550a164fe639c2bc5863c76512f/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784d4773314e6d733459336c6a4e4752684e3270354f574a33625456304f484675616d77314d574a314e6d31344d4849786254567963535a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f76553246666b6d386e6744494e336d6d36572f67697068792e676966",
-    source_code_link: 'https://github.com/bl33h/exploringTheSpace',
+    source_code_link: 'https://github.com/imane-bouabidi/Bati-Cuisine.git',
     demo_link: 'https://camo.githubusercontent.com/1f7fb7873058b029992d30b8601d2c36582f6bb399482c560d5560c2d02fc37e/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784d4773314e6d733459336c6a4e4752684e3270354f574a33625456304f484675616d77314d574a314e6d31344d4849786254567963535a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f76553246666b6d386e6744494e336d6d36572f67697068792e676966',
   },
   {
-    name: 'Disney Plus Replica',
-    description: 'A replica of the Disney+ principal page built using React and Vite. The Vitest and Storybook technologies were also implemented for testing.',
+    name: 'IdeaSphere',
+    description: 'Created a Laravel-based platform for sharing and discussing creative ideas, with multi-role functionality (admin, users) and tailored back-office experiences. The project includes UML diagrams and responsive page mockups for both desktop and mobile.',
     image: "https://camo.githubusercontent.com/4c4ca68f5129db681313c44d9fe568db8dc6792412df4093dcb133371ca1a0cb/68747470733a2f2f6c756d696572652d612e616b616d616968642e6e65742f76312f696d616765732f65735f686f7573652d6f662d6469736e65792d706c75735f6d6f625f6d5f35376437663836652e6a7065673f726567696f6e3d302c302c3830302c3630302677696474683d373638",
-    source_code_link: 'https://github.com/bl33h/disneyPlusReplica',
+    source_code_link: 'https://github.com/imane-bouabidi/IdeaSphere.git',
     demo_link: 'https://disneyplusreplica.netlify.app',
   },
 ];
