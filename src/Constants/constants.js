@@ -180,7 +180,7 @@ const skills = [
     title: 'CSS',
     icon: cssIcon,
     description:
-    'I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
+    'I use CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
   },
   {
     id: 'javascript',
@@ -194,21 +194,21 @@ const skills = [
     title: 'Java',
     icon: javaIcon,
     description:
-      'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
+    'I have developed several projects using Java and Spring Boot, making it my primary area of expertise. I am experienced in building robust, scalable applications and applying best practices in object-oriented programming.',
   },
   {
     id: 'figma',
     title: 'Figma',
     icon: figmaIcon,
     description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+      'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
   },
   {
     id: 'git',
     title: 'Git',
     icon: gitIcon,
     description:
-    'I am proficient in Git, managing code changes, collaborating with others, and resolving conflicts effectively.',
+      'I am proficient in Git, managing code changes, collaborating with others, and resolving conflicts effectively.',
   },
   {
     id: 'github',
@@ -222,70 +222,70 @@ const skills = [
     title: 'Postgresql',
     icon: psqlIcon,
     description:
-      'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
+      'I have experience using PostgreSQL for database management, queries, and integrating databases into applications.',
   },
   {
     id: 'npm',
     title: 'npm',
     icon: npmIcon,
     description:
-      'When it comes to building web applications, I prefer using npm as my runtime environment over Yarn. I have expertise to develop powerful and scalable web applications.',
+      'I use npm to manage dependencies and tools for web development projects efficiently.',
   },
   {
     id: 'Spring',
     title: 'Spring Boot',
     icon: springboot,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I have extensive experience using Spring Boot along with various other frameworks like Spring MVC and Spring Data JPA. This has allowed me to build full-stack applications with efficient back-end systems and smooth front-end integration.',
   },
   {
     id: 'TypeScript',
     title: 'TypeScript',
     icon: typescript,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I have used TypeScript in combination with Angular to build dynamic and user-friendly web applications. Its type safety and scalability have helped me create maintainable and efficient front-end solutions.',
   },
   {
     id: 'Hibernate',
     title: 'Hibernate',
     icon: hibernate,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I have worked with Hibernate to simplify database interactions and implement object-relational mapping in Java.',
   },
   {
     id: 'REST',
     title: ' REST API',
     icon: api,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I have experience building and consuming REST APIs for seamless communication between applications.',
   },
   {
     id: 'Laravel',
     title: 'Laravel',
     icon: laravel,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I work with Laravel to develop dynamic and robust web applications using its powerful tools.',
   },
   {
     id: 'Angular',
     title: 'Angular',
     icon: angular,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I use Angular to create responsive, dynamic, and feature-rich front-end applications.',
   },
   {
     id: 'JUnit',
     title: 'JUnit',
     icon: junit,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I use JUnit to write and execute tests, ensuring the reliability of my Java code.',
   },
   {
     id: 'PHP',
     title: 'PHP',
     icon: php,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'I have experience with PHP for creating dynamic websites and server-side scripting.',
   },
 ];
 
